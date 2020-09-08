@@ -1,0 +1,24 @@
+
+
+
+
+@font-face{
+    font-family: "EuclidCircularB";
+    src: url("EuclidCircularB-Bold.otf");
+    src: url("EuclidCircularB-Light.otf");
+    src: url("EuclidCircularB-Medium.otf");
+    src: url("EuclidCircularB-Regular.otf");
+    src: url("EuclidCircularB-Semibold.otf");
+}
+
+@font-face{
+    font-family: "Gopher";
+    src: url("Gopher-Black.otf");
+    src: url("Gopher-Bold.otf");
+    src: url("Gopher-Hairline.otf");
+    src: url("Gopher-Heavy.otf");
+    src: url("Gopher-Light.otf");
+    src: url("Gopher-Medium.otf");
+    src: url("Gopher-Regular.otf");
+    src: url("Gopher-Thin.otf");
+}

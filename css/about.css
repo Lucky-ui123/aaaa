@@ -1,0 +1,496 @@
+@import url(../css/fonts.css);
+
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+ 
+  .header{
+    height: 100px;
+     padding: 0 20px;
+    color: #fff;
+  }
+ 
+  .menu{
+    float: right;
+    line-height: 100px;
+    margin-right: 150px;
+    margin-top: 170px !important;
+
+    font-family: "EuclidCircularB";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    }
+  .menu a{
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 10px;
+    margin: 20px;
+     transition: 0.4s;
+  }
+  .show-menu-btn,.hide-menu-btn{
+    transition: 0.4s;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+  }
+  .show-menu-btn{
+    float: right;
+  }
+  .show-menu-btn i{
+    line-height: 100px;
+    color: red;
+  }
+  .menu a:hover,
+  .show-menu-btn:hover,
+  .hide-menu-btn:hover{
+    color: #3498db;
+  }
+  
+  #chk{
+    position: absolute;
+    visibility: hidden;
+    z-index: -1111;
+  }
+   .logo {
+    position: absolute;
+    width: 338px;
+    height: 137px;
+    left: 103px;
+    top: 96px;
+  }
+  /* =================================  HEADER  ================================== */
+
+.about-img{
+    position: absolute;
+  /* width: 1440px; */
+  /* height: 734px; */
+  left: 0px;
+  top: 280px;
+  }
+  
+  .count-para{
+  
+    position:relative;
+    width: 1129px;
+    height: 138px;
+    left: 216px;
+    top: 1008px;
+    
+    font-family: Euclid Circular B;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 46px;
+    
+    color: #CC2027;
+  }
+  .span--1{
+    position: absolute;
+  width: 91px;
+  height: 23px;
+  left: 206px;
+  top: 1352px;
+  
+  font-family: Gopher;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  /* identical to box height */
+  
+  
+  color: #000000;
+  
+  }
+  h1 {
+    position: absolute;
+    /* bottom: 2000px; */
+    font-family: "EuclidCircula";
+  }
+  .about-us{
+    position: absolute;
+  width: 577px;
+  height: 76px;
+  left: 591px;
+  top: 1348px;
+  
+  font-family: Euclid Circular B;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 38px;
+  
+  color: #CC2027;
+  }
+  .about-us2{
+    position: absolute;
+  width: 623px;
+  height: 268px;
+  left: 591px;
+  top: 1478px;
+  
+  font-family: Euclid Circular B;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  
+  color: #000000;
+  }
+  span hr{
+    position: absolute;
+  width: 1002px;
+  height: 0px;
+  left: 206px;
+  top: 1803px;
+  
+  border: 1px solid #000000;
+  }
+  .span--2{
+    position: absolute;
+  width: 61px;
+  height: 23px;
+  left: 206px;
+  top: 1950px;
+  
+  font-family: Gopher;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  /* identical to box height */
+  
+  
+  color: #000000;
+  }
+  .vision{
+    position: absolute;
+  width: 577px;
+  height: 76px;
+  left: 591px;
+  top: 1950px;
+  
+  font-family: Euclid Circular B;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 38px;
+  
+  color: #CC2027;
+  
+  }
+  .vision-1{
+    position: absolute;
+  width: 623px;
+  height: 268px;
+  left: 591px;
+  top: 2093px;
+  
+  font-family: Euclid Circular B;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  
+  color: #000000;
+  }
+  span1 hr{
+    position: absolute;
+  width: 1002px;
+  height: 0px;
+  left: 206px;
+  top: 2450px;
+  
+  border: 1px solid #000000;
+  }
+  .span--3{
+    position: absolute;
+  width: 68px;
+  height: 23px;
+  left: 206px;
+  top: 2614px;
+  
+  font-family: Gopher;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  /* identical to box height */
+  
+  
+  color: #000000;
+  
+  }
+  .values{
+    position: absolute;
+  width: 577px;
+  height: 114px;
+  left: 591px;
+  top: 2614px;
+  
+  font-family: Euclid Circular B;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 38px;
+  
+  color: #CC2027;
+  }
+  .values-1{
+    position: absolute;
+  width: 623px;
+  height: 268px;
+  left: 591px;
+  top: 2776px;
+  
+  font-family: Euclid Circular B;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  
+  color: #000000;
+  
+  }
+   
+  .container-sec{
+    position: absolute;
+    width: 100%;
+    height: 414px;
+    left: 0px;
+    top: 3050px;
+    
+    background: #CC2027;
+  }
+  .para-sec{
+    position: absolute;
+    width: 728px;
+    height: 228px;
+    left: 295px;
+    top: 100px;
+    
+    font-family: Euclid Circular B;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 38px;
+    
+    color: #FFFFFF;
+    
+  }
+  .sec-button{
+    position: absolute;
+  width: 81px;
+  height: 14px;
+  left: 1170px;
+  /* top: 3364px; */
+  background-color: #CC2027;
+  
+  
+  font-family: Euclid Circular B;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  
+  color: #FFFFFF;
+  /* position: absolute; */
+  width: 127px;
+  height: 44px;
+  left: 1000px;
+  top: 100px;
+  
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  }
+  /* =====================================  FOOTER  ============================= */
+.logo-1{
+    position: absolute;
+  width: 323px;
+  height: 131px;
+  left: 1117px;
+  top: 3700px;
+  } 
+  ul li {
+    list-style-type: none;
+    /* display: inline-block; */
+  }
+  nav {
+    /* background: #34495e; */
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 60px;
+    align-items: center;
+    color: black;
+    position: absolute;
+    width: 62px;
+    height: 28px;
+    left: 195px;
+    top: 3880px;
+    flex-direction: row;
+  
+  }
+  .menu-item{
+    margin: 15px;
+  }
+  .main-menus li a {
+     font-size: 18px;
+    font-family: consolas;
+    padding: 35px 10px;
+    margin: 20px 25px;
+    text-decoration: none;
+    font-family: Euclid Circular B;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+  } 
+   
+   /*   */
+  .wrapper{
+    position: absolute;
+    bottom: 480px;
+    left: 150px;
+  }
+  .list-unstyled {
+      padding-left: 0;
+      list-style: none;
+  }
+  .list-inline li {
+      display: inline-block;
+      padding-right: 5px;
+      padding-left: 5px;
+      margin-bottom: 10px;
+  }
+  /*---- Genral classes end -------*/
+  /*Change icons size here*/
+  .social-icons .fa {
+      font-size: 0.8em;
+  }
+  /*Change icons circle size and color here*/
+  .social-icons .fa {
+      width: 50px;
+      height: 50px;
+      line-height: 50px;
+      text-align: center;
+      color: #FFF;
+       -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -ms-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+  }
+  
+   
+  
+  .fa-facebook{
+    position: relative;
+    left: 490px;
+    top: 3720px;
+    background-color:   #CC2027;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    border-radius: 50%; 
+  
+    color: black;
+    margin-bottom: 10px !important;
+    text-align: center;
+    justify-content: center;
+  }
+  .fa-linkedin{
+    position: relative;
+    left: 490px;
+    top: 3720px;
+    background-color:   #CC2027;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    border-radius: 50%; 
+  
+    color: black;
+    margin-bottom: 10px !important;
+    text-align: center;
+    justify-content: center;
+  }
+  .fa-twitter{
+    position: relative;
+    left: 490px;
+    top: 3720px;
+    background-color:   #CC2027;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    border-radius: 50%; 
+  
+    color: black;
+    margin-bottom: 10px !important;
+    text-align: center;
+    justify-content: center;
+  }
+  .address{
+    position: absolute;
+  width: 381px;
+  height: 89px;
+  left: 660px;
+  top: 4040px;
+  
+  font-family: Euclid Circular B;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  
+  color: #404040;
+  }
+  .phone{
+    position: absolute;
+  width: 247px;
+  height: 50px;
+  left: 1093px;
+  top: 4040px;
+  
+  font-family: Euclid Circular B;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  
+  color: #404040;
+  }
+  .copyright{
+    position: absolute;
+  width: 349px;
+  height: 20px;
+  left: 103px;
+  top: 4220px;
+  
+  font-family: Euclid Circular B;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  
+  color: #000000;
+  }
+  .design{
+    position: absolute;
+  width: 354px;
+  height: 20px;
+  left: 990px;
+  top: 4220px;
+  
+  font-family: Euclid Circular B;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  
+  }
+   

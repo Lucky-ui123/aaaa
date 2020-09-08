@@ -1,0 +1,364 @@
+@import url(../css/fonts.css);
+
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+ 
+  .header{
+    height: 100px;
+     padding: 0 20px;
+    color: #fff;
+  }
+ 
+  .menu{
+    position: relative;
+    float: right;
+    line-height: 100px;
+    margin-right: 150px;
+    margin-top: 170px !important;
+
+    font-family: "EuclidCircularB";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    }
+  .menu a{
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 10px;
+    margin: 20px;
+     transition: 0.4s;
+  }
+  .show-menu-btn,.hide-menu-btn{
+    transition: 0.4s;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+  }
+  .show-menu-btn{
+    float: right;
+  }
+  .show-menu-btn i{
+    line-height: 100px;
+    color: red;
+  }
+  .menu a:hover,
+  .show-menu-btn:hover,
+  .hide-menu-btn:hover{
+    color: #3498db;
+  }
+  
+  #chk{
+    position: absolute;
+    visibility: hidden;
+    z-index: -1111;
+  }
+  .logo {
+    position: absolute;
+    width: 338px;
+    height: 137px;
+    left: 103px;
+    top: 96px;
+  }
+   /* ======================================================================== */
+.container h2{
+    position: absolute;
+width: 454px;
+height: 109px;
+left: 137px;
+top: 353px;
+
+font-family: Euclid Circular B;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 38px;
+
+color: #CC2027;
+}
+.container h5{
+    position: absolute;
+width: 512px;
+height: 229px;
+left: 137px;
+top: 511px;
+
+font-family: Euclid Circular B;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+
+color: #000000;
+
+}
+.container span{
+    position: absolute;
+width: 174px;
+height: 23px;
+left: 837px;
+top: 342px;
+
+font-family: Gopher;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+.container span-1{
+    position: absolute;
+width: 289px;
+height: 56px;
+left: 331px;
+top: 823px;
+
+font-family: Euclid Circular B;
+font-style: normal;
+font-weight: 500;
+font-size: 44px;
+line-height: 56px;
+/* identical to box height */
+
+
+color: #CC2027;
+}
+.container img{
+    position: absolute;
+width: 746px;
+height: 573px;
+left: 837px;
+top: 434px;
+}
+.container-1 img{
+    position: absolute;
+width: 837px;
+height: 492px;
+left: 0px;
+top: 1007px;
+}
+.container-1 span-1{
+    position: absolute;
+width: 195px;
+height: 47px;
+left: 1169px;
+top: 1140px;
+
+font-family: Euclid Circular B;
+font-style: normal;
+font-weight: 500;
+font-size: 37px;
+line-height: 47px;
+/* identical to box height */
+
+
+color: #CC2027;
+
+}
+.container-1 span-2{
+    position: absolute;
+width: 347px;
+height: 58px;
+left: 939px;
+top: 1314px;
+
+font-family: Euclid Circular B;
+font-style: normal;
+font-weight: 500;
+font-size: 46px;
+line-height: 58px;
+
+color: #CC2027;
+}
+.container-2 span{
+    position: absolute;
+width: 496px;
+height: 66px;
+left: 123px;
+top: 1704px;
+
+font-family: Euclid Circular B;
+font-style: normal;
+font-weight: 500;
+font-size: 52px;
+line-height: 66px;
+/* identical to box height */
+
+
+color: #CC2027;
+
+}
+.container-2 img{
+    position: absolute;
+width: 521px;
+height: 335px;
+left: 837px;
+top: 1499px;
+
+}
+.container-2 span-1{
+    position: absolute;
+width: 225px;
+height: 335px;
+left: 1358px;
+top: 1499px;
+
+background: #CC2027;
+}
+.container-2 span-2{
+    position: absolute;
+width: 298px;
+height: 53px;
+left: 728px;
+top: 1947px;
+
+font-family: Euclid Circular B;
+font-style: normal;
+font-weight: 500;
+font-size: 42px;
+line-height: 53px;
+
+color: #CC2027;
+}
+.services{
+    position: absolute;
+width: 100%;
+height: 1060px;
+left: 0px;
+top: 2127px;
+
+background: #CC2027;
+}
+.services span{
+    position: absolute;
+width: 87px;
+height: 23px;
+left: 224px;
+top: 249px;
+
+font-family: Gopher;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+.services span-1{
+    position: absolute;
+width: 548px;
+height: 152px;
+left: 785px;
+top: 105px;
+
+font-family: Euclid Circular B;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 38px;
+
+color: #FFFFFF;
+}
+/* 
+nav {
+    background: #34495e;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 60px;
+    align-items: center;
+    color: black;
+    position: absolute;
+    width: 62px;
+    height: 28px;
+    left: 195px;
+    top: 5878px;
+    flex-direction: row;
+  
+  }
+  .menu-item{
+    margin: 15px;
+  }
+  .main-menus li a {
+     font-size: 18px;
+    font-family: consolas;
+    padding: 35px 10px;
+    margin: 20px 25px;
+    text-decoration: none;
+    font-family: Euclid Circular B;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    color: white;
+  }  */
+  .main-menu1{
+      position: absolute;
+
+  }
+  .menu-item1 {
+      list-style-type: none;
+      text-decoration: none;
+      margin-bottom: 20px;
+      
+  }
+  .menu-item1 a:hover{
+      color: #fff;
+      text-decoration: none;
+  }
+
+.menu-link{
+    color: #fff;
+}
+a{
+    position: relative;
+/* width: 243px; */
+height: 51px;
+left: 180px;
+top: 361px;
+/* margin-bottom: 100px; */
+
+font-family: Euclid Circular B;
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 51px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+.services button{
+    position: absolute;
+width: 81px;
+height: 14px;
+left: 1182px;
+top: 450px;
+background-color: #CC2027;
+
+font-family: Euclid Circular B;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+
+color: #FFFFFF;
+/* position: absolute; */
+width: 127px;
+height: 44px;
+left: 1159px;
+/* top: 2577px; */
+
+border: 1px solid white;
+box-sizing: border-box;
+}
+ /* ===============================   ================================== */
